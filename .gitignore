@@ -2,10 +2,18 @@
 node_modules
 /dist
 
+# Ignore compiled Python files
+*.pyc
+__pycache__/
 
 # local env files
 .env.local
 .env.*.local
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
 
 # Log files
 npm-debug.log*
